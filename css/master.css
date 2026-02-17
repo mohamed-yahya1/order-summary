@@ -1,0 +1,120 @@
+:root{
+    --Blue-o: hsl(225, 100%, 94%);
+   --Blue-m: hsl(245, 75%, 52%);
+
+
+--Blue-h: hsl(225, 100%, 98%);
+--Gray: hsl(224, 23%, 55%);
+--Blue-p: hsl(223, 47%, 23%);
+--color-white: #ffffff;
+  --color-black: #000000;
+  --color-blue-50: #f7f9ff;
+  --color-blue-100: #e0e8ff;
+  --color-blue-150: #d6e1ff;
+  --color-blue-700: #382ae1;
+  --color-blue-950: #1f2e55;
+  --color-purple-500: #766cf1;
+  --color-gray-600: #717fa6;
+
+
+--paragraph: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Blue-o);
+  background-image: url(/images/pattern-background-desktop.svg); 
+  background-repeat: no-repeat;   
+  background-size: contain;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.main{
+    width: 400px;
+    height: 600px;
+    background-color: var(--Blue-h);
+    margin: 100px auto ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .fimg{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.main h1{
+    margin-top: 20px;
+    font-weight: 700;
+}
+.main .des{
+    width: 85%;
+    margin-top: 15px;
+    text-align: center;
+ }
+ .pay img{
+    width: 40px;
+    height: 50px;
+    margin: 15px;
+ }
+ .main .pay{
+    width: 340px;
+    height: 75px;
+    display: flex;
+    background-color: hsl(225, 97%, 96%);
+ }
+ .plan{
+    margin-top: 25px;
+ }
+ 
+ .pay .price{
+    margin: 15px;
+    margin-right: 100px;
+    
+ }
+ .price p{
+    font-weight: 800;
+ }
+ .price span{
+    font-weight: 300;
+    color: var(--Gray);
+ }
+ .pay .change{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   color: var(--color-purple-500);
+   font-weight: 700;
+}
+.sub .btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 30px auto;
+    background-color: var(--color-blue-700);
+    color: var(--Blue-o);
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 1px 9px 17px  var(--color-purple-500);
+}
+.sub .cancel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 30px auto;
+     cursor: pointer;
+    font-weight: 500;
+
+}
